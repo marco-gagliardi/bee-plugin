@@ -1,0 +1,15 @@
+#bee-plugin-container {
+    position: absolute;
+    top: 5px;
+    bottom: 30px;
+    left: 5px;
+    right: 5px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

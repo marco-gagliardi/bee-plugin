@@ -5,12 +5,50 @@ body {
 p {
     margin: 0;
 }
-.Page__content {
-    margin: 90px 25px 0 25px;
-}
 
-@media screen and (max-width: 600px) {
-    .Page__content {
-        margin: 70px 15px 0 15px;
-    }
+.btn-primary {
+    color: #000;
+    background-color: #54ea99;
+    border-color: #6be745;
+}
+.btn-primary:disabled {
+    color: #fff;
+    background-color: gray;
+    border-color: gray;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-appearance: button;
+    text-transform: none;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
 }
